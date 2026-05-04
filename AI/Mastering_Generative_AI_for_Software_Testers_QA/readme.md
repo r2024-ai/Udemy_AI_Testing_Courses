@@ -1,0 +1,1 @@
+* Course Link - https://www.udemy.com/course/learn-generative-ai-for-software-testing/

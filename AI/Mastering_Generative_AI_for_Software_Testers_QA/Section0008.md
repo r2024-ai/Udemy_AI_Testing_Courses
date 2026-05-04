@@ -1,5 +1,15 @@
 ## AI-Powered Automation with Playwright MCP, GitHub Copilot and & VS Code
 
+## AI Integration with Playwright
+
+* AI is a big umbrella under which we have multiple domains - Robotics, Neural Networks, Data Science
+* GenAI - It is basically generate the content based upon the knowledge it already have
+* Tools - LLM, Agent, MCP
+  * Popular LLMS - ChatGPT, Google Gemini, Claude, DeepSeek
+  * 
+
+
+
 * **Prompt**
 
 ```txt
