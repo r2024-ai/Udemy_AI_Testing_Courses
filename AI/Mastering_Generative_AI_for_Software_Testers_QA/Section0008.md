@@ -6,7 +6,7 @@
 * GenAI - It is basically generate the content based upon the knowledge it already have
 * Tools - LLM, Agent, MCP
   * Popular LLMS - ChatGPT, Google Gemini, Claude, DeepSeek
-  * 
+  * LLM's can learn the things but cannot act/execute
 
 
 
