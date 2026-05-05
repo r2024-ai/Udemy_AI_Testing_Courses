@@ -7,7 +7,55 @@
 * Tools - LLM, Agent, MCP
   * Popular LLMS - ChatGPT, Google Gemini, Claude, DeepSeek
   * LLM's can learn the things but cannot act/execute
+* Prompting - Providing inputs/instructions to the LLM
+* Agent - It is an assistant that actually does what the LLM says. It can perform actions(execution)
 
+* How do we integrate LLM and agent?
+
+Step 1 - 
+1. Install GitHub copilot extension
+
+![alt text](image.png)
+
+Step 2 - 
+* Install Playwright
+
+![alt text](image-1.png)
+
+Playwright VSCode extension(Optional)
+
+![alt text](image-2.png)
+
+Step 3 -  
+
+Install Playwright MCP server
+
+![alt text](image-3.png)
+
+Click on Install server
+
+![alt text](image-4.png)
+
+Step 4 -  
+
+* Ctrl + Shift + P
+  * Preferences: Open User Settings (JSON) => Not anymore
+  * Type - Open User MCP Configuration
+
+Add this there - 
+
+```json
+{
+  "servers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    }
+  }
+}
+```
+
+![alt text](image-5.png)
 
 
 * **Prompt**
