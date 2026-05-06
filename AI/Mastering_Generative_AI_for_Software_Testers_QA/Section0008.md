@@ -70,3 +70,14 @@ Only after all steps are completed, emit a Playwright TypeScript test that uses
 save generated test file in the tests directory.
 Execute the test file and iterate until the test passes.
 ```
+
+To run the test cases - 
+
+`npx playwright test --project=chromium --headed`
+
+```txt
+Open https://petstore.octoperf.com/actions/Catalog.action
+Enter "fish" in search box
+Click Search button
+Verify "Angelfish" is present in results
+```
